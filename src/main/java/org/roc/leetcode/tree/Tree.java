@@ -4,6 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * preOrder1、midOrder1、posOrder1、levelOrder1四个函数，分别代表了非递归实现的二叉树前序、中序、后序、层序遍历遍历。
+ * @param <AnyType>
+ */
 public class Tree<AnyType extends Comparable<? super AnyType>> {
 
     private BinaryNode<AnyType> root;
